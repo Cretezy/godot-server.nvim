@@ -66,3 +66,7 @@ With the plugin, opening a Godot project in Neovim (outside of launching from Go
 ## Reloading
 
 If Neovim doesn't close properly (e.g. SIGKILL), it's possible it will won't cleanup the server socket file. The plugin provides the `:GodotServerReload` command to force the cleanup and restart the server. You can also manually do this with `rm .godot/server.pipe` if not using the plugin.
+
+## Credits
+
+Launch script based on [niscolas/nvim-godot](https://github.com/niscolas/nvim-godot).

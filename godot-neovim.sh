@@ -16,7 +16,7 @@ start_server() {
 }
 
 open_file_in_server() {
-    "$nvim_exec" --server "$server_path" --remote-send "<C-\><C-n>:n $filename<CR>:call cursor($cursor)<CR>"
+    "$nvim_exec" --server "$server_path" --remote-send "<C-\><C-n>:e $filename<CR>:call cursor($cursor)<CR>"
 }
 
 # Check if server is currently running

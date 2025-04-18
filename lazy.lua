@@ -1,4 +1,5 @@
 return {
-  "Cretezy/godot-server.nvim",
-  opts = {},
+	"Cretezy/godot-server.nvim",
+	lazy = false,
+	opts = {},
 }

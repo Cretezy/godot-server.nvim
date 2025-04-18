@@ -33,7 +33,7 @@ The script is required for Godot to open files in Neovim
 1. Enable `Use External Editor`.
 1. Set `Exec Path` to the full path of your downloaded (and executable) launch script path, e.g. `/home/$USER/.config/godot/godot-neovim.sh` (replace `$USER` with your username).
    You can use the file browser (file icon to the right of the text input) to get the full path.
-1. Set `Exec Flags` to: `"{file}" "{line},{col}"`
+1. Set `Exec Flags` to: `"{file}" "{line}" "{col}"`
 
 <details>
    <summary>Step-by-step with images</summary>
@@ -47,7 +47,7 @@ The script is required for Godot to open files in Neovim
 
 1. Open Godot's text editor settings and configure editor
    ![image](https://github.com/user-attachments/assets/d66d4179-3515-432d-8c33-46c188751b75)
-   ![image](https://github.com/user-attachments/assets/136a82b2-336b-405e-b2fc-26dc15231009)
+   ![image](https://github.com/user-attachments/assets/62b7fff3-958d-4926-92b0-db59c0bfd014)
 
 </details>
 
